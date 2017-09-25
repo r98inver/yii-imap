@@ -5,6 +5,8 @@
 
 
 <?php
+	echo "Sono un bellissimo file di git";
+	die();
     $mailbox = imap_open("{imap.googlemail.com:993/ssl}INBOX", "quattrozeta2@googlemail.com", "ah672dp1!");
     $mail = imap_search($mailbox, "SINCE 2017-09-05");
     
@@ -18,7 +20,7 @@
 		
 		
 		
-		$mail_headers = imap_headerinfo($mailbox, $m);
+		//$mail_headers = imap_headerinfo($mailbox, $m);
 		
 		//echo imap_qprint(imap_body($mailbox, $m));  -- testo della mail
 		
