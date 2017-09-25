@@ -5,7 +5,7 @@
 
 
 <?php
-	echo "Sono un bellissimo file di git";
+	echo "Hello git";
 	die();
     $mailbox = imap_open("{imap.googlemail.com:993/ssl}INBOX", "quattrozeta2@googlemail.com", "ah672dp1!");
     $mail = imap_search($mailbox, "SINCE 2017-09-05");
